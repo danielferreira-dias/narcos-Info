@@ -28,7 +28,7 @@ function createHeadingSection() {
     const headingSectionVersion = document.createElement("h3");
 
     // Set text content
-    headingSectionTitle.textContent = "Sexy Flying";
+    headingSectionTitle.textContent = "Narcos";
     headingSectionVersion.textContent = "Game Version: v1.0.0";
 
     // Append elements
@@ -52,7 +52,7 @@ function createHTMLFromJSON() {
         .then((data) => {
 
             // Title of the Game
-            document.title = "Sexy Flying";
+            document.title = "Narcos";
 
             // Create Sections
             const main = document.querySelector(".symbol-section");
